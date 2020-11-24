@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ozone desk Demo</title>
+</head>
+<body>
+    <div class="card border-primary mb-3 mx-auto">
+        <div class="card-body">
+            <img src="pages/food.jpg" class="image">
+            <div class="right" style="margin-right: 30px">
+                <h3>Menu</h3>
+                <p class="menu">Basmati White Rice <br> Brinjal Pahi <br> Vegetable Salad <br> Potato Curry <br> Salad</p>
+            </div>
+            <div class= "extras">
+                <p class="heading">Extras</p>
+                <div class="row" style="margin-left: 10px;">
+                    <p class="item">Yogurt</p>
+                    <div class="counter">
+                        <input type="button" value="-" class="decrement" ng-click="removeYogurt()">
+                        <input type="text" ng-model="YogurtCount" class="countBox">
+                        <input type="button" value="+" class="increment" ng-click="addYogurt()">
+                    </div>
+                </div>
+                <div class="row" style="margin-left: 10px;">
+                    <p class="item">Pudding</p>
+                    <div class="counter">
+                        <input type="button" value="-" class="decrement" ng-click="removePudding()">
+                        <input type="text" ng-model="PuddingCount" class="countBox">
+                        <input type="button" value="+" class="increment" ng-click="addPudding()">
+                    </div>
+                </div>
+                <div class="row" style="margin-left: 10px;">
+                    <p class="item">500 ML Water</p>
+                    <div class="counter">
+                        <input type="button" value="-" class="decrement" ng-click="removeWater()">
+                        <input type="text" ng-model="WaterCount" class="countBox">
+                        <input type="button" value="+" class="increment" ng-click="addWater()">
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class= "selection">
+                    <p class="heading">Selection</p>
+                    <div class="row" style="margin-left: 10px;">
+                        <p class="item">Chicken</p>
+                        <div class="counter">
+                            <input type="button" value="-" class="decrement" ng-click="removeChicken1()">
+                            <input type="text" ng-model="chicken1" class="countBox">
+                            <input type="button" value="+" class="increment" ng-click="addChicken1()">
+                        </div>
+                    </div>
+                    <div class="row" style="margin-left: 10px;">
+                        <p class="item">Chicken</p>
+                        <div class="counter">
+                            <input type="button" value="-" class="decrement" ng-click="removeChicken2()">
+                            <input type="text" ng-model="chicken2" class="countBox">
+                            <input type="button" value="+" class="increment" ng-click="addChicken2()">
+                        </div>
+                    </div>
+                    <div class="row" style="margin-left: 10px;">
+                        <p class="item">Chicken</p>
+                        <div class="counter">
+                            <input type="button" value="-" class="decrement" ng-click="removeChicken3()">
+                            <input type="text" ng-model="chicken3" class="countBox">
+                            <input type="button" value="+" class="increment" ng-click="addChicken3()">
+                        </div>
+                    </div>
+                    <div class="row" style="margin-left: 10px;">
+                        <p class="item">Chicken</p>
+                        <div class="counter">
+                            <input type="button" value="-" class="decrement" ng-click="removeChicken4()">
+                            <input type="text" ng-model="chicken4" class="countBox">
+                            <input type="button" value="+" class="increment" ng-click="addChicken4()">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3 style="float: left; margin-top: 15px; font-weight: bold">TOTAL : LKR 150</h3>
+            <button type="button" class="btn btn-warning right" style="margin-top: 10px; border: 4px solid #e74c3c;">Order Now</button>
+        </div>
+    </div>
+</body>
+</html>
