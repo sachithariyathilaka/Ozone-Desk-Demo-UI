@@ -1,2 +1,6 @@
-# OzoneDeskDemoUI
-Used html, CSS, Angular JS, Bootstrap For design interface  
+# Ozone Desk Demo UI
+User interface for a demo
+
+# Technologies
+
+HTML, CSS, Boostrap, Angular JS
